@@ -3,7 +3,7 @@
 ## 使用方法
 
 1. 安装 [Hammerspoon](http://www.hammerspoon.org/)
-2. `git clone  https://github.com/forecho/hammerspoon-config.git ~/.hammerspoon`
+2. `git clone  https://github.com/FE-ng/.hammerspoon ~/.hammerspoon`
 
 所以配置文件都在 `config.lua` 文件中，你可以按照自己的习惯或者需求修改此文件。
 
