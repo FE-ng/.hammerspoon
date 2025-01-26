@@ -3,7 +3,11 @@ require "config"
 require "modules.window"
 require "modules.launcher"
 require "modules.defaultInput"
--- require "modules.bluetoothSleep"
+require "modules.wifiMute"
+require "modules.bluetoothSleep"
+require "modules.clipboard"
+require "modules.ring"
+require "modules.mouseMove"
 
 hs.hotkey.bind({'cmd', 'shift'}, 'h', function()
 	hs.alert('Hello World') 

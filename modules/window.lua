@@ -149,13 +149,13 @@ end)
 -------- Key bindings
 
 -- Halves of the screen
-hs.hotkey.bind({"ctrl","cmd"}, "Left",  hs.fnutils.partial(winresize, "left"))
-hs.hotkey.bind({"ctrl","cmd"}, "Right", hs.fnutils.partial(winresize, "right"))
-hs.hotkey.bind({"ctrl","cmd"}, "Up",    hs.fnutils.partial(winresize, "up"))
-hs.hotkey.bind({"ctrl","cmd"}, "Down",  hs.fnutils.partial(winresize, "down"))
+hs.hotkey.bind(hyper, "Left",  hs.fnutils.partial(winresize, "left"))
+hs.hotkey.bind(hyper, "Right", hs.fnutils.partial(winresize, "right"))
+hs.hotkey.bind(hyper, "Up",    hs.fnutils.partial(winresize, "up"))
+hs.hotkey.bind(hyper, "Down",  hs.fnutils.partial(winresize, "down"))
 
 -- Center of the screen
-hs.hotkey.bind({"ctrl", "cmd"}, "C", center)
+hs.hotkey.bind(hyper, "C", center)
 
 -- Thirds of the screen
 hs.hotkey.bind({"ctrl", "alt"}, "Left",  left_third)
