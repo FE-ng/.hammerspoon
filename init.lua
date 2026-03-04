@@ -5,7 +5,7 @@ require "modules.launcher"
 require "modules.defaultInput"
 require "modules.wifiMute"
 require "modules.bluetoothSleep"
-require "modules.clipboard"
+-- require "modules.clipboard"
 require "modules.ring"
 require "modules.mouseMove"
 

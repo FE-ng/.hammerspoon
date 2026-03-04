@@ -3,12 +3,14 @@ launcherHotkey = {'option'}
 inputHotkey = {'option'}
 
 applist = {
-    {shortcut = 'A',appname = 'AliLang.app'},
+    {shortcut = 'A',appname = 'AntBox.app'},
     {shortcut = 'D',appname = 'antDing.app'},
     {shortcut = 'C',appname = 'Visual Studio Code'},
     {shortcut = 'I',appname = 'iTerm'},
     {shortcut = 'G',appname = 'Google Chrome.app'},
     {shortcut = 'P',appname = 'PicGo.app'},
+    {shortcut = 'T',appname = 'Tacos.app'},
+    {shortcut = 'S',appname = 'Simulator.app'},
     -- {shortcut = 'E',appname = '企业微信'},
     -- {shortcut = 'F',appname = '丰声'},
     -- {shortcut = 'O',appname = 'Microsoft Outlook'},
@@ -27,4 +29,4 @@ appInputMethod = {
 }
 
 -- 定义公司的 wifi 名称
-wifiName = 'alibaba-inc'
+wifiName = 'antgroup-inc'
