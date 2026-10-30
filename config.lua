@@ -10,7 +10,7 @@ applist = {
     {shortcut = 'G',appname = 'Google Chrome.app'},
     {shortcut = 'P',appname = 'PicGo.app'},
     {shortcut = 'T',appname = 'Tacos.app'},
-    {shortcut = 'S',appname = 'Simulator.app'},
+    {shortcut = 'S',appname = '/Applications/Xcode.app/Contents/Applications/DeviceHub.app'},
     {shortcut = 'H',appname = 'Homi 0.1.99-universal.app'},
     -- {shortcut = 'E',appname = '企业微信'},
     -- {shortcut = 'F',appname = '丰声'},

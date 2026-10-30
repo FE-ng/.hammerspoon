@@ -15,6 +15,7 @@ local logger = hs.logger.new("windows")
 -- (e.g. "right half" ends up in the middle with a gap on the right).
 local aspectLockedApps = {
    ["Simulator"] = true,
+   ["DeviceHub"] = true,  -- Xcode 27 起 Simulator 并入 DeviceHub（/Applications/Xcode.app/Contents/Applications/DeviceHub.app）
 }
 
 local function isAspectLocked(win)
