@@ -11,14 +11,16 @@ applist = {
     {shortcut = 'P',appname = 'PicGo.app'},
     {shortcut = 'T',appname = 'Tacos.app'},
     {shortcut = 'S',appname = 'Simulator.app'},
+    {shortcut = 'H',appname = 'Homi 0.1.99-universal.app'},
     -- {shortcut = 'E',appname = '企业微信'},
     -- {shortcut = 'F',appname = '丰声'},
     -- {shortcut = 'O',appname = 'Microsoft Outlook'},
     {shortcut = 'M',appname = 'NeteaseMusic.app'},
+    {shortcut = 'X',appname = 'cmux.app'},
 }
 
 appInputMethod = {
-    {'/Applications/iTerm.app', 'English'},
+    {'/Applications/iTerm.app', 'Chinese'},
     {'/Applications/Visual Studio Code.app', 'Chinese'},
     {'/Applications/Google Chrome.app', 'Chinese'},
     {'/System/Library/CoreServices/Finder.app', 'English'},
