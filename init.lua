@@ -15,6 +15,7 @@ require "modules.bluetoothSleep"
 require "modules.ring"
 require "modules.mouseMove"
 require "modules.devGuard"
+require "modules.sysGuard"
 
 hs.hotkey.bind({'cmd', 'shift'}, 'h', function()
 	hs.alert('Hello World') 
